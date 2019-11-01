@@ -45,6 +45,7 @@ RDEPENDS_${PN} = "\
 "
 
 DEPENDS_class-native = "\
+    ${PYTHON_PN}-dateutil-native \
     ${PYTHON_PN}-pyjwt-native \
     ${PYTHON_PN}-requests-native \
     ${PYTHON_PN}-colorama-native \
